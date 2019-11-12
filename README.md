@@ -8,10 +8,13 @@ Os modelos serializados gerados são: MLPRegressor_credit_model.sav para determi
 Devido a dificultado de se calibrar um modelo de machine learning a acurácio dos modelos nãoforam otimizadas, é preferível em um ambiente de produção real a utilização de algoritmos de otimização como Algoritmos Genéticos, enxames de partículas, entre outros para o ajuste destes modelos.
 
 A base de dados contém um problema que é a falta de informação em alguns pontos que pode interferir na qualidade do modelo.
-
+                                                  
+                                                  ***
+                                                  
 Para a utilização da API basta executar o arquivo API.py
 
-e realizar as requisições, para validação fiz testes utilizando o Postman - Request POST em:
+OBS: 
+Para validação fiz testes utilizando o Postman - Request POST em:
 http://127.0.0.1:5000/get_credit
 
 Passando no Body as informações do cliente.
@@ -22,3 +25,6 @@ Exemplo de resposta obtida:
   "Amount": 77,
   "Status": "Yes"
 }
+
+
+Com o API.py executando (servidor), executar o arquivo Desafio_Response_mongoDB.py, que fará a requisição a API receberá a resposta eincluirá em uma base de dados MongoDB. Para validação deste processo utilizei um cluster do mongoBD cloud, para testar basta inserir uma Connexion String válida.
