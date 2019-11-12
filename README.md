@@ -1,7 +1,7 @@
 # Desafio_Onovolab
 Desafio Onovolab
 
-A descrição de todas as análises realizada pode ser encontrada no arquivo jupyter: Desafio Onovolab Cientista de dados_jupyter.html, o código gerador de todas as análises pode ser encontrado em: projeto_onovolab.py.
+A descrição de todas as análises realizada pode ser encontrada no arquivo jupyter: Desafio Onovolab Cientista de dados_jupyter.ipynb, o código gerador de todas as análises pode ser encontrado em: projeto_onovolab.py.
 
 Os modelos serializados gerados são: MLPRegressor_credit_model.sav para determinação da quantidade de empréstimo e floresta_credit_model.sav para determinar se o cliente irá pagar ou não o empréstimo.
 
